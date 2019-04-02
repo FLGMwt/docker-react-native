@@ -3,9 +3,9 @@ FROM library/ubuntu:16.04
 # https://github.com/facebook/react-native/blob/8c7b32d5f1da34613628b4b8e0474bc1e185a618/ContainerShip/Dockerfile.android-base
 
 # set default build arguments
-ARG ANDROID_TOOLS_VERSION=25.2.5
+ARG ANDROID_TOOLS_VERSION=28.0.3
 ENV NPM_CONFIG_LOGLEVEL info
-ARG NODE_VERSION=10.12.0
+ARG NODE_VERSION=11.0.0
 
 
 # set default environment variables
